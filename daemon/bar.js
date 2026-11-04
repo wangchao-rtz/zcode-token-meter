@@ -131,7 +131,7 @@
   tip.className = "ztu-tip";
   tip.style.cssText = "position:fixed;display:none;z-index:2147483646;max-width:460px;" +
     "font:12px/1.6 ui-sans-serif,system-ui,'Segoe UI','Microsoft YaHei UI','Segoe UI Emoji','Segoe UI Symbol',sans-serif;" +
-    "background:var(--color-tooltip,#1d2026);color:#e6e8ec;border:1px solid rgba(255,255,255,.12);" +
+    "background:rgba(28,30,36,.96);color:#e6e8ec;border:1px solid rgba(255,255,255,.12);" +
     "border-radius:8px;padding:8px 12px;white-space:pre-line;pointer-events:none;" +
     "box-shadow:0 8px 24px rgba(0,0,0,.35)";
   document.body.appendChild(tip);
@@ -409,7 +409,7 @@
     panel.style.cssText = "position:fixed;z-index:2147483646;width:320px;" +
       "max-height:calc(100vh - 16px);overflow:auto;overflow-x:hidden;scrollbar-width:thin;" +
       "font:12px/1.7 ui-sans-serif,system-ui,'Segoe UI','Microsoft YaHei UI','Segoe UI Emoji','Segoe UI Symbol',sans-serif;" +
-      "background:var(--color-tooltip,#1d2026);color:#e6e8ec;border:1px solid rgba(255,255,255,.12);" +
+      "background:rgba(28,30,36,.96);color:#e6e8ec;border:1px solid rgba(255,255,255,.12);" +
       "border-radius:10px;padding:12px 14px;box-shadow:0 12px 32px rgba(0,0,0,.4)";
     panel.innerHTML =
       '<div style="font-weight:700;margin-bottom:6px">⚡ ZCode Token 状态条</div>' +
@@ -521,7 +521,7 @@
     rankPop.style.cssText = "position:fixed;z-index:2147483646;width:330px;" +
       "max-height:calc(100vh - 16px);overflow:auto;overflow-x:hidden;scrollbar-width:thin;" +
       "font:12px/1.7 ui-sans-serif,system-ui,'Segoe UI','Microsoft YaHei UI',sans-serif;" +
-      "background:var(--color-tooltip,#1d2026);color:#e6e8ec;border:1px solid rgba(255,255,255,.12);" +
+      "background:rgba(28,30,36,.96);color:#e6e8ec;border:1px solid rgba(255,255,255,.12);" +
       "border-radius:10px;padding:12px 14px;box-shadow:0 12px 32px rgba(0,0,0,.4)";
     rankPop.innerHTML = '<div style="font-weight:700;margin-bottom:6px">🏆 会话排行</div>' +
       '<div id="rp-tabs" style="margin-bottom:10px"></div>' +

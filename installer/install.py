@@ -78,7 +78,8 @@ def set_target(asar_path):
 
 def zcode_exe_for(asar_path):
     root = asar_path.parent.parent
-    for name in ("ZCode.exe", "ZCode.app/Contents/MacOS/ZCode", "zcode"):
+    # macOS: <App>.app/Contents/Resources/app.asar → 可执行文件在 Contents/MacOS/ 下
+    for name in ("ZCode.exe", "MacOS/ZCode", "zcode"):
         p = root / name
         if p.is_file():
             return p
